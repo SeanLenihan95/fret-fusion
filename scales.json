@@ -1,0 +1,692 @@
+{
+  "sixStringGuitar": {
+    "major": {
+      "1": {
+        "distanceFromRootLeft": 0,
+        "distanceFromRootRight": 0,
+        "leftmostNote": 1,
+        "rightmostNote": 2,
+        "notes": [
+          [0, 2],
+          [-1, 0, 2],
+          [-1, 1, 2],
+          [-1, 1, 2],
+          [0, 2],
+          [-1, 0]
+        ]
+      },
+      "2": {
+        "distanceFromRootLeft": 10,
+        "distanceFromRootRight": 2,
+        "leftmostNote": 1,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 2, 3],
+          [0, 2],
+          [-1, 0, 2],
+          [-1, 0, 2],
+          [0, 2, 3],
+          [0, 2, 3]
+        ]
+      },
+      "3": {
+        "distanceFromRootLeft": 8,
+        "distanceFromRootRight": 4,
+        "leftmostNote": 0,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 1, 3],
+          [0, 2, 3],
+          [0, 2, 3],
+          [0, 2],
+          [0, 1, 3],
+          [0, 1, 3]
+        ]
+      },
+      "4": {
+        "distanceFromRootLeft": 5,
+        "distanceFromRootRight": 7,
+        "leftmostNote": 1,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 2],
+          [-1, 0, 2],
+          [-1, 0, 2],
+          [-1, 1, 2],
+          [0, 2, 3],
+          [0, 2]
+        ]
+      },
+      "5": {
+        "distanceFromRootLeft": 3,
+        "distanceFromRootRight": 9,
+        "leftmostNote": 1,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 2, 3],
+          [0, 2, 3],
+          [0, 2],
+          [-1, 0, 2],
+          [0, 1, 3],
+          [0, 2, 3]
+        ]
+      }
+    },
+    "minorPentatonic": {
+      "1": {
+        "distanceFromRootLeft": 0,
+        "distanceFromRootRight": 0,
+        "leftmostNote": 0,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 3],
+          [0, 2],
+          [0, 2],
+          [0, 2],
+          [0, 3],
+          [0, 3]
+        ]
+      },
+      "2": {
+        "distanceFromRootLeft": 9,
+        "distanceFromRootRight": 3,
+        "leftmostNote": 1,
+        "rightmostNote": 2,
+        "notes": [
+          [0, 2],
+          [-1, 2],
+          [-1, 2],
+          [-1, 1],
+          [0, 2],
+          [0, 2]
+        ]
+      },
+      "3": {
+        "distanceFromRootLeft": 7,
+        "distanceFromRootRight": 5,
+        "leftmostNote": 1,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 2],
+          [0, 2],
+          [0, 2],
+          [-1, 2],
+          [0, 3],
+          [0, 2]
+        ]
+      },
+      "4": {
+        "distanceFromRootLeft": 5,
+        "distanceFromRootRight": 7,
+        "leftmostNote": 0,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 3],
+          [0, 3],
+          [0, 2],
+          [0, 2],
+          [1, 3],
+          [0, 3]
+        ]
+      },
+      "5": {
+        "distanceFromRootLeft": 2,
+        "distanceFromRootRight": 10,
+        "leftmostNote": 1,
+        "rightmostNote": 2,
+        "notes": [
+          [0, 2],
+          [0, 2],
+          [-1, 2],
+          [-1, 2],
+          [0, 2],
+          [0, 2]
+        ]
+      }
+    }
+  },
+  "sevenStringGuitar": {
+    "major": {
+      "1": {
+        "distanceFromRootLeft": 0,
+        "distanceFromRootRight": 0,
+        "leftmostNote": 1,
+        "rightmostNote": 2,
+        "notes": [
+          [0, 2],
+          [-1, 0, 2],
+          [-1, 1, 2],
+          [-1, 1, 2],
+          [-1, 1],
+          [-1, 0, 2],
+          [-1, 0, 2]
+        ]
+      },
+      "2": {
+        "distanceFromRootLeft": 10,
+        "distanceFromRootRight": 2,
+        "leftmostNote": 1,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 2, 3],
+          [0, 2],
+          [-1, 0, 2],
+          [-1, 0, 2],
+          [-1, 1, 2],
+          [0, 2, 3],
+          [0, 2]
+        ]
+      },
+      "3": {
+        "distanceFromRootLeft": 8,
+        "distanceFromRootRight": 4,
+        "leftmostNote": 1,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 1, 3],
+          [0, 2, 3],
+          [0, 2, 3],
+          [0, 2],
+          [-1, 0, 2],
+          [0, 1, 3],
+          [0, 2, 3]
+        ]
+      },
+      "4": {
+        "distanceFromRootLeft": 5,
+        "distanceFromRootRight": 7,
+        "leftmostNote": 1,
+        "rightmostNote": 2,
+        "notes": [
+          [0, 2],
+          [-1, 0, 2],
+          [-1, 0, 2],
+          [-1, 1, 2],
+          [-1, 1, 2],
+          [0, 2],
+          [-1, 0, 2]
+        ]
+      },
+      "5": {
+        "distanceFromRootLeft": 3,
+        "distanceFromRootRight": 9,
+        "leftmostNote": 1,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 2, 3],
+          [0, 2, 3],
+          [0, 2],
+          [-1, 0, 2],
+          [-1, 0, 2],
+          [0, 2, 3],
+          [0, 2, 3]
+        ]
+      }
+    },
+    "minorPentatonic": {
+      "1": {
+        "distanceFromRootLeft": 0,
+        "distanceFromRootRight": 0,
+        "leftmostNote": 1,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 3],
+          [0, 2],
+          [0, 2],
+          [0, 2],
+          [-1, 2],
+          [0, 3],
+          [0, 2]
+        ]
+      },
+      "2": {
+        "distanceFromRootLeft": 9,
+        "distanceFromRootRight": 3,
+        "leftmostNote": 1,
+        "rightmostNote": 2,
+        "notes": [
+          [0, 2],
+          [-1, 2],
+          [-1, 2],
+          [-1, 1],
+          [-1, 1],
+          [0, 2],
+          [-1, 2]
+        ]
+      },
+      "3": {
+        "distanceFromRootLeft": 7,
+        "distanceFromRootRight": 5,
+        "leftmostNote": 1,
+        "rightmostNote": 2,
+        "notes": [
+          [0, 2],
+          [0, 2],
+          [0, 2],
+          [-1, 2],
+          [-1, 2],
+          [0, 2],
+          [0, 2]
+        ]
+      },
+      "4": {
+        "distanceFromRootLeft": 5,
+        "distanceFromRootRight": 7,
+        "leftmostNote": 0,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 3],
+          [0, 3],
+          [0, 2],
+          [0, 2],
+          [0, 2],
+          [0, 3],
+          [0, 3]
+        ]
+      },
+      "5": {
+        "distanceFromRootLeft": 2,
+        "distanceFromRootRight": 10,
+        "leftmostNote": 1,
+        "rightmostNote": 2,
+        "notes": [
+          [0, 2],
+          [0, 2],
+          [-1, 2],
+          [-1, 2],
+          [-1, 1],
+          [0, 2],
+          [0, 2]
+        ]
+      }
+    }
+  },
+  "fourStringBass": {
+    "major": {
+      "1": {
+        "distanceFromRootLeft": 0,
+        "distanceFromRootRight": 0,
+        "leftmostNote": 1,
+        "rightmostNote": 2,
+        "notes": [
+          [0, 2],
+          [-1, 0, 2],
+          [-1, 1, 2],
+          [-1, 1, 2]
+        ]
+      },
+      "2": {
+        "distanceFromRootLeft": 10,
+        "distanceFromRootRight": 2,
+        "leftmostNote": 1,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 2, 3],
+          [0, 2],
+          [-1, 0, 2],
+          [-1, 0, 2]
+        ]
+      },
+      "3": {
+        "distanceFromRootLeft": 8,
+        "distanceFromRootRight": 4,
+        "leftmostNote": 0,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 1, 3],
+          [0, 2, 3],
+          [0, 2, 3],
+          [0, 2]
+        ]
+      },
+      "4": {
+        "distanceFromRootLeft": 5,
+        "distanceFromRootRight": 7,
+        "leftmostNote": 1,
+        "rightmostNote": 2,
+        "notes": [
+          [0, 2],
+          [-1, 0, 2],
+          [-1, 0, 2],
+          [-1, 1, 2]
+        ]
+      },
+      "5": {
+        "distanceFromRootLeft": 3,
+        "distanceFromRootRight": 9,
+        "leftmostNote": 1,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 2, 3],
+          [0, 2, 3],
+          [0, 2],
+          [-1, 0, 2]
+        ]
+      }
+    },
+    "minorPentatonic": {
+      "1": {
+        "distanceFromRootLeft": 0,
+        "distanceFromRootRight": 0,
+        "leftmostNote": 0,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 3],
+          [0, 2],
+          [0, 2],
+          [0, 2]
+        ]
+      },
+      "2": {
+        "distanceFromRootLeft": 9,
+        "distanceFromRootRight": 3,
+        "leftmostNote": 1,
+        "rightmostNote": 2,
+        "notes": [
+          [0, 2],
+          [-1, 2],
+          [-1, 2],
+          [-1, 1]
+        ]
+      },
+      "3": {
+        "distanceFromRootLeft": 7,
+        "distanceFromRootRight": 5,
+        "leftmostNote": 1,
+        "rightmostNote": 2,
+        "notes": [
+          [0, 2],
+          [0, 2],
+          [0, 2],
+          [-1, 2]
+        ]
+      },
+      "4": {
+        "distanceFromRootLeft": 5,
+        "distanceFromRootRight": 7,
+        "leftmostNote": 0,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 3],
+          [0, 3],
+          [0, 2],
+          [0, 2]
+        ]
+      },
+      "5": {
+        "distanceFromRootLeft": 2,
+        "distanceFromRootRight": 10,
+        "leftmostNote": 1,
+        "rightmostNote": 2,
+        "notes": [
+          [0, 2],
+          [0, 2],
+          [-1, 2],
+          [-1, 2]
+        ]
+      }
+    }
+  },
+  "fiveStringBass": {
+    "major": {
+      "1": {
+        "distanceFromRootLeft": 0,
+        "distanceFromRootRight": 0,
+        "leftmostNote": 1,
+        "rightmostNote": 2,
+        "notes": [
+          [0, 2],
+          [-1, 0, 2],
+          [-1, 1, 2],
+          [-1, 1, 2],
+          [-1, 1]
+        ]
+      },
+      "2": {
+        "distanceFromRootLeft": 10,
+        "distanceFromRootRight": 2,
+        "leftmostNote": 1,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 2, 3],
+          [0, 2],
+          [-1, 0, 2],
+          [-1, 0, 2],
+          [-1, 1, 2]
+        ]
+      },
+      "3": {
+        "distanceFromRootLeft": 8,
+        "distanceFromRootRight": 4,
+        "leftmostNote": 1,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 1, 3],
+          [0, 2, 3],
+          [0, 2, 3],
+          [0, 2],
+          [-1, 0, 2]
+        ]
+      },
+      "4": {
+        "distanceFromRootLeft": 5,
+        "distanceFromRootRight": 7,
+        "leftmostNote": 1,
+        "rightmostNote": 2,
+        "notes": [
+          [0, 2],
+          [-1, 0, 2],
+          [-1, 0, 2],
+          [-1, 1, 2],
+          [-1, 1, 2]
+        ]
+      },
+      "5": {
+        "distanceFromRootLeft": 3,
+        "distanceFromRootRight": 9,
+        "leftmostNote": 1,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 2, 3],
+          [0, 2, 3],
+          [0, 2],
+          [-1, 0, 2],
+          [-1, 0, 2]
+        ]
+      }
+    },
+    "minorPentatonic": {
+      "1": {
+        "distanceFromRootLeft": 0,
+        "distanceFromRootRight": 0,
+        "leftmostNote": 1,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 3],
+          [0, 2],
+          [0, 2],
+          [0, 2],
+          [-1, 2]
+        ]
+      },
+      "2": {
+        "distanceFromRootLeft": 9,
+        "distanceFromRootRight": 3,
+        "leftmostNote": 1,
+        "rightmostNote": 2,
+        "notes": [
+          [0, 2],
+          [-1, 2],
+          [-1, 2],
+          [-1, 1],
+          [-1, 1]
+        ]
+      },
+      "3": {
+        "distanceFromRootLeft": 7,
+        "distanceFromRootRight": 5,
+        "leftmostNote": 1,
+        "rightmostNote": 2,
+        "notes": [
+          [0, 2],
+          [0, 2],
+          [0, 2],
+          [-1, 2],
+          [-1, 2]
+        ]
+      },
+      "4": {
+        "distanceFromRootLeft": 5,
+        "distanceFromRootRight": 7,
+        "leftmostNote": 0,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 3],
+          [0, 3],
+          [0, 2],
+          [0, 2],
+          [0, 2]
+        ]
+      },
+      "5": {
+        "distanceFromRootLeft": 2,
+        "distanceFromRootRight": 10,
+        "leftmostNote": 1,
+        "rightmostNote": 2,
+        "notes": [
+          [0, 2],
+          [0, 2],
+          [-1, 2],
+          [-1, 2],
+          [-1, 1]
+        ]
+      }
+    }
+  },
+  "ukulele": {
+    "major": {
+      "1": {
+        "distanceFromRootLeft": 0,
+        "distanceFromRootRight": 0,
+        "leftmostNote": 1,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 2],
+          [-1, 0, 2],
+          [0, 2, 3],
+          [0, 2, 3]
+        ]
+      },
+      "2": {
+        "distanceFromRootLeft": 10,
+        "distanceFromRootRight": 2,
+        "leftmostNote": 0,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 2, 3],
+          [0, 2],
+          [0, 1, 3],
+          [0, 1, 3]
+        ]
+      },
+      "3": {
+        "distanceFromRootLeft": 8,
+        "distanceFromRootRight": 4,
+        "leftmostNote": 1,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 1, 3],
+          [0, 2, 3],
+          [1, 3],
+          [-1, 1, 3]
+        ]
+      },
+      "4": {
+        "distanceFromRootLeft": 5,
+        "distanceFromRootRight": 7,
+        "leftmostNote": 1,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 2],
+          [-1, 0, 2],
+          [0, 1, 3],
+          [0, 2, 3]
+        ]
+      },
+      "5": {
+        "distanceFromRootLeft": 3,
+        "distanceFromRootRight": 9,
+        "leftmostNote": 1,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 2, 3],
+          [0, 2, 3],
+          [1, 3],
+          [0, 1, 3]
+        ]
+      }
+    },
+    "minorPentatonic": {
+      "1": {
+        "distanceFromRootLeft": 0,
+        "distanceFromRootRight": 0,
+        "leftmostNote": 0,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 3],
+          [0, 2],
+          [1, 3],
+          [1, 3]
+        ]
+      },
+      "2": {
+        "distanceFromRootLeft": 9,
+        "distanceFromRootRight": 3,
+        "leftmostNote": 1,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 2],
+          [-1, 2],
+          [0, 3],
+          [0, 2]
+        ]
+      },
+      "3": {
+        "distanceFromRootLeft": 7,
+        "distanceFromRootRight": 5,
+        "leftmostNote": 0,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 2],
+          [0, 2],
+          [1, 3],
+          [0, 3]
+        ]
+      },
+      "4": {
+        "distanceFromRootLeft": 5,
+        "distanceFromRootRight": 7,
+        "leftmostNote": 0,
+        "rightmostNote": 3,
+        "notes": [
+          [0, 3],
+          [0, 3],
+          [1, 3],
+          [1, 3]
+        ]
+      },
+      "5": {
+        "distanceFromRootLeft": 2,
+        "distanceFromRootRight": 10,
+        "leftmostNote": 1,
+        "rightmostNote": 2,
+        "notes": [
+          [0, 2],
+          [0, 2],
+          [0, 3],
+          [0, 3]
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="https://s3.eu-west-2.amazonaws.com/fretfusion.com/img/favicon.ico" type="image/x-icon">
+    <title>Fret Fusion | A Guitar Educational Tool</title>
+  </head>
+  <body>
+    <a class="hidden" href="#fretboard">Skip to fretboard</a>
+    <header class="navbar navbar-expand-lg navbar-dark bg-light" id="nav">
+      <a class="navbar-brand" href="#">Fret Fusion</a>
+      <div class="navbar-header">
+        <span tabindex="0" class="navbar-toggle navbar-toggler-icon" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"></span>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" role="menu">
+          <li class="nav-item dropdown">
+            <a tabindex="0" class="nav-link dropdown-toggle" aria-haspopup="true" data-bs-auto-close="outside" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Fretboard </a>
+            <ul class="dropdown-menu">
+              <li class="dropend">
+                <a class="dropdown-item dropdown-toggle" aria-haspopup="true" data-bs-toggle="dropdown" href="#">Instrument</a>
+                <ul id="instrument-options" class="dropdown-menu">
+                  <li tabindex="0" data-custom-value="sixStringGuitar" class="selected-li selectable dropdown-item disabled-during-runtime">6-String Guitar</li>
+                  <li tabindex="0" data-custom-value="sevenStringGuitar" class="selectable dropdown-item disabled-during-runtime">7-String Guitar</li>
+                  <li tabindex="0" data-custom-value="fourStringBass" class="selectable dropdown-item disabled-during-runtime">4-String Bass</li>
+                  <li tabindex="0" data-custom-value="fiveStringBass" class="selectable dropdown-item disabled-during-runtime">5-String Bass</li>
+                  <li tabindex="0" data-custom-value="ukulele" class="selectable dropdown-item disabled-during-runtime">Ukulele</li>
+                </ul>
+              </li>
+              <li class="dropend">
+                <a class="dropdown-item dropdown-toggle" aria-haspopup="true" data-bs-toggle="dropdown" href="#">Tuning</a>
+                <ul id="tuning-options" class="dropdown-menu">
+                  <li tabindex="0" data-custom-value="0" class="selected-li selectable dropdown-item disabled-during-runtime">Standard</li>
+                  <li tabindex="0" data-custom-value="1" class="selectable dropdown-item disabled-during-runtime">Half-Step Up</li>
+                  <li tabindex="0" data-custom-value="2" class="selectable dropdown-item disabled-during-runtime">Whole-Step Up</li>
+                  <li tabindex="0" data-custom-value="-1" class="selectable dropdown-item disabled-during-runtime">Half-Step Down</li>
+                  <li tabindex="0" data-custom-value="-2" class="selectable dropdown-item disabled-during-runtime">Whole-Step Down</li>
+                </ul>
+              </li>
+              <li class="dropend">
+                <a class="dropdown-item dropdown-toggle" aria-haspopup="true" data-bs-toggle="dropdown" href="#">Fretboard length</a>
+                <div id="fretboardLength" class="dropdown-menu center-on-mobile">
+                  <input type="number" id="fretboard-length-switch" class="disabled-during-runtime" value="12" max="24" min="3">
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a tabindex="0" class="nav-link dropdown-toggle" aria-haspopup="true" data-bs-auto-close="outside" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Rhythm </a>
+            <ul class="dropdown-menu">
+              <li class="dropend">
+                <a class="dropdown-item dropdown-toggle" aria-haspopup="true" data-bs-toggle="dropdown" href="#">Note value</a>
+                <ul id="note-value-options" class="dropdown-menu">
+                  <li data-custom-value="1" class="selectable dropdown-item">Quarter notes (1 note per beat)</li>
+                  <li data-custom-value="2" class="selectable dropdown-item">Eighth notes (2 notes per beat)</li>
+                  <li data-custom-value="4" class="selected-li selectable dropdown-item">Sixteenth notes (4 notes per beat)</li>
+                  <li data-custom-value="8" class="selectable dropdown-item">Thirty-second notes (8 notes per beat)</li>
+                  <li data-custom-value="3" class="selectable dropdown-item">Eighth note triplets (3 notes per beat)</li>
+                  <li data-custom-value="6" class="selectable dropdown-item">Sixteenth note triplets (6 notes per beat)</li>
+                </ul>
+              </li>
+              <li class="dropend">
+                <a class="dropdown-item dropdown-toggle" aria-haspopup="true" data-bs-toggle="dropdown" href="#">Tempo</a>
+                <div id="tempo" class="center-on-mobile dropdown-menu">
+                  <input type="number" id="tempo-switch" class="menu-item" value="70" max="200" min="40">
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a tabindex="0" class="nav-link dropdown-toggle" aria-haspopup="true" data-bs-auto-close="outside" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Scale </a>
+            <ul class="dropdown-menu">
+              <li class="dropend">
+                <a class="dropdown-item dropdown-toggle" aria-haspopup="true" data-bs-toggle="dropdown" href="#">Scale type</a>
+                <ul id="scale-options" class="dropdown-menu">
+                  <li tabindex="0" data-custom-value="major" class="selected-li selectable dropdown-item">Major (ionian)</li>
+                  <li tabindex="0" data-custom-value="minorPentatonic" class="selectable dropdown-item">Minor pentatonic</li>
+                </ul>
+              </li>
+              <li class="dropend">
+                <a class="dropdown-item dropdown-toggle" aria-haspopup="true" data-bs-toggle="dropdown" href="#">Key</a>
+                <ul id="key-options" class="dropdown-menu">
+                  <li tabindex="0" data-custom-value="A" class="selected-li selectable dropdown-item">A</li>
+                  <li tabindex="0" data-custom-value="Bb" class="selectable dropdown-item">Bb</li>
+                  <li tabindex="0" data-custom-value="B" class="selectable dropdown-item">B</li>
+                  <li tabindex="0" data-custom-value="C" class="selectable dropdown-item">C</li>
+                  <li tabindex="0" data-custom-value="Db" class="selectable dropdown-item">Db</li>
+                  <li tabindex="0" data-custom-value="D" class="selectable dropdown-item">D</li>
+                  <li tabindex="0" data-custom-value="Eb" class="selectable dropdown-item">Eb</li>
+                  <li tabindex="0" data-custom-value="E" class="selectable dropdown-item">E</li>
+                  <li tabindex="0" data-custom-value="F" class="selectable dropdown-item">F</li>
+                  <li tabindex="0" data-custom-value="Gb" class="selectable dropdown-item">Gb</li>
+                  <li tabindex="0" data-custom-value="G" class="selectable dropdown-item">G</li>
+                  <li tabindex="0" data-custom-value="Ab" class="selectable dropdown-item">Ab</li>
+                </ul>
+              </li>
+              <li class="dropend">
+                <a class="dropdown-item dropdown-toggle" aria-haspopup="true" data-bs-toggle="dropdown" href="#">Position</a>
+                <ul id="position-options" class="dropdown-menu">
+                  <li tabindex="0" data-custom-value="1" class="selected-li selectable dropdown-item">1</li>
+                  <li tabindex="0" data-custom-value="2" class="selectable dropdown-item">2</li>
+                  <li tabindex="0" data-custom-value="3" class="selectable dropdown-item">3</li>
+                  <li tabindex="0" data-custom-value="4" class="selectable dropdown-item">4</li>
+                  <li tabindex="0" data-custom-value="5" class="selectable dropdown-item">5</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a tabindex="0" class="nav-link dropdown-toggle" aria-haspopup="true" data-bs-auto-close="outside" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Options </a>
+            <ul class="dropdown-menu">
+              <li class="dropend">
+                <a class="dropdown-item dropdown-toggle" aria-haspopup="true" data-bs-toggle="dropdown" href="#">Quantise recordings</a>
+                <div class="dropdown-menu">
+                  <div class="form-check form-switch nav-item menu-item" id="quantised">
+                    <input class="form-check-input" type="checkbox" id="quantise-recording-switch">
+                  </div>
+                </div>
+              </li>
+              <li class="dropend">
+                <a class="dropdown-item dropdown-toggle" aria-haspopup="true" data-bs-toggle="dropdown" href="#">Hear metronome</a>
+                <div class="dropdown-menu">
+                  <div class="form-check form-switch nav-item menu-item" id="hearMetronome">
+                    <input class="form-check-input" type="checkbox" id="hear-metronome-switch" checked>
+                  </div>
+                </div>
+              </li>
+              <li class="dropend">
+                <a class="dropdown-item dropdown-toggle" aria-haspopup="true" data-bs-toggle="dropdown" href="#">Show notes as flats</a>
+                <div class="dropdown-menu">
+                  <div class="form-check form-switch nav-item menu-item" id="showFlats">
+                    <input class="form-check-input disabled-during-runtime" type="checkbox" id="show-flats-switch">
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div id="nav-right" class="navbar-nav">
+          <div class="switch-container">
+            <div class="nav-item">
+              <label class="form-check-label" for="left-handed-mode-switch">Left-handed mode:</label>
+            </div>
+            <div id="leftHanded" class="form-check form-switch nav-item">
+              <input class="form-check-input menu-item disabled-during-runtime" type="checkbox" role="switch" id="left-handed-mode-switch">
+            </div>
+          </div>
+          <div class="switch-container">
+            <div class="nav-item">
+              <label class="form-check-label" for="dark-mode-switch">Dark mode:</label>
+            </div>
+            <div class="form-check form-switch nav-item">
+              <input class="form-check-input" type="checkbox" role="switch" id="dark-mode-switch" checked>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="buttons">
+      <button class="button disabled-during-runtime" id="play-scale-btn">Play scale</button>
+      <button class="button disabled-during-runtime" id="record-btn">Start recording</button>
+      <button class="button disabled-during-runtime" id="play-recording-btn">Play recording</button>
+      <button class="button disabled-during-runtime" id="interval-btn">Start interval training</button>
+    </div>
+    <main>
+      <div id="fretboard"></div>
+      <div id="footer">
+        <p>Fret Fusion v3.2 | © Sean Lenihan, 2023</p>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="./javascript.js"></script>
+  </body>
+</html>
